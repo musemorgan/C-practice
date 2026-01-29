@@ -36,8 +36,6 @@ int main(){
     if (file == NULL)
         printf("DEBUG: Couldn't close file");
 
-    file=fopen("student.txt", "w");
-
     for (int i = 0; i < count; i++)
     {
         printf("Student: %s (ID: %d) - scores: %d\n", name[i],id[i], scores[i]);
