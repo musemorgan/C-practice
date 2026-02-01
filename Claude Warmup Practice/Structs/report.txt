@@ -1,0 +1,13 @@
+=========CLASS REPORT=============
+Total Students: 3
+
+All Students:
+Alice (ID: 12345) - Score: 95
+Bob (ID: 12346) - Score: 98
+Charlie (ID: 12347) - Score: 92
+========= STATISTICS ============
+Class Average: 95.00
+Highest Score: Bob - 98
+Lowest Score: Charlie - 92
+Students Above Average: 2
+Students Below Average: 1
