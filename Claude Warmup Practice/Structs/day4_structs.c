@@ -7,7 +7,9 @@ struct Student
     int id;
     int score;
 };
-
+void print_student(struct Student s){
+    printf("%s %d %d\n", s.name, s.id, s.score);
+}
 
 
 int main(){
@@ -20,7 +22,8 @@ while (fscanf(file, "%s %d %d", students[count].name, &students[count].id, &stud
 }
 int temp = 0;
 for (int i=0; i<count ; i++){
-    printf("%s %d %d\n", students[i].name, students[i].id, students[i].score);
+    //printf("%s %d %d\n", students[i].name, students[i].id, students[i].score);
+    print_student(students[i]);
     if (students[temp].score < students[i].score)
         temp = i;
 }//THis required me to properly initialize temp to 0, then check the values in the student names with the different indexs, then store the index so it could be used later
